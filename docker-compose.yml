@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: eastwind996/windhub:latest
+    container_name: windhub
+    ports:
+      - "6556:80"
+    restart: always
