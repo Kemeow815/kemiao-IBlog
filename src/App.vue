@@ -9,7 +9,7 @@
         <!-- Avatar -->
         <div class="relative w-32 h-32 mx-auto mb-6">
           <img
-            src="/src/assets/avatar.png"
+            src="/src/assets/kemiao.jpg"
             alt="EastWind Profile"
             class="rounded-full object-cover w-full h-full shadow-lg ring-4 ring-opacity-50 transition-all duration-300"
             :class="isDark ? 'ring-purple-400' : 'ring-purple-200'"
@@ -18,7 +18,7 @@
 
         <!-- Name -->
         <h1 :class="['text-3xl font-bold text-center mb-4', isDark ? 'text-white' : 'text-gray-800']">
-          EastWind
+          克喵爱吃卤面
         </h1>
 
         <!-- Social Links -->
@@ -56,7 +56,7 @@
 
       <!-- Footer -->
       <footer :class="['mt-8 text-sm', isDark ? 'text-gray-400' : 'text-gray-600']">
-        All Rights Reserved To ©EastWind 2024
+        All Rights Reserved To ©克喵爱吃卤面 2025
       </footer>
     </main>
   </div>
@@ -64,7 +64,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { Github, Mail, Globe, Sun, Moon } from 'lucide-vue-next'
+import { Github, Mail, Globe, Send, Notebook, Image, Sun, Moon } from 'lucide-vue-next'
 
 const isDark = ref(false)
 
@@ -72,17 +72,32 @@ const socialLinks = [
   {
     icon: Github,
     label: 'GitHub',
-    url: 'https://github.com/WindyDante'
+    url: 'https://github.com/Kemeow815'
+  },
+  {
+    icon: Send,
+    label: 'Telegram',
+    url: 'https://t.me/KemiaoJun'
+  },
+  {
+    icon: Notebook,
+    label: 'pyq',
+    url: 'https://pyq.kemiao.online'
+  },
+  {
+    icon: Image,
+    label: 'Photo',
+    url: 'https://photos.050815.xyz'
   },
   {
     icon: Mail,
     label: 'Email',
-    url: 'mailto:ew@mx.windydante.top'
+    url: 'mailto:me@kemiaosw.top'
   },
   {
     icon: Globe,
     label: 'Blog',
-    url: 'https://996.windydante.top'
+    url: 'https://blog-v3.kemeow.top'
   }
 ]
 
