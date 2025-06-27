@@ -9,8 +9,8 @@
         <!-- Avatar -->
         <div class="relative w-32 h-32 mx-auto mb-6">
           <img
-            src="/src/assets/kemiao.jpg"
-            alt="EastWind Profile"
+            src="https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256"
+            alt="KeMiao Profile"
             class="rounded-full object-cover w-full h-full shadow-lg ring-4 ring-opacity-50 transition-all duration-300"
             :class="isDark ? 'ring-purple-400' : 'ring-purple-200'"
           />
